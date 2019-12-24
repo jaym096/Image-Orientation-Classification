@@ -1,0 +1,3 @@
+# K Nearest Neighbor
+
+K nearest neight is a supervised machine learning algorithm which is uses distance metric to solve classification problems. In this problem statement we are required to classify the orientation of an image. We've been given image name, it's orientation and the image vector as train data. In KNN training of the data is just writing the data in to model_file.txt. Once the data is trained, we test the model on test data. To classify an image in test, we find the distance of the test image from each of the train image. Once we get a distance array, we sort it and select first k elements of the array. We use these K elements to vote and and assign a label (orientation) to the test image. This same procedure is done for all the test image. 
